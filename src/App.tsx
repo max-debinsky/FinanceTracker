@@ -1,9 +1,12 @@
 import './App.css'
+import Home from './components/Home.tsx'
 
 function App() {
 
   return (
-    <h1 class="text-5xl">Hello World</h1>
+    <div>
+      <Home />
+    </div>
   );
 }
 
